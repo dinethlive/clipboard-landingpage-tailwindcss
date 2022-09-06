@@ -607,6 +607,18 @@ h5 {
   }
 }
 
+body {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+}
+
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
